@@ -1,0 +1,28 @@
+{
+  "name": "user-management-app",
+  "version": "1.0.0",
+  "description": "A Node.js application for user management and image uploads.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.0.12",
+    "nodemailer": "^6.7.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
